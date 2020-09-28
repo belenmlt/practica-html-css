@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+        "logo . menu"
+        "benvenutti benvenutti benvenutti"
+        "articulo-1 articulo-2 articulo-3"
+        "articulo-4 articulo-5 ."
+        "copyright copyright copyright" */
+
+}
+
+.logo-header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    /* justify-content: center; */
+}
+.logo-image{
+    width: 50%;
+}
+
+.menu {
+    /* display: flex;
+    justify-content: flex-end; */
+} 
+
+.menu > nav {
+    display: flex;
+    /* justify-content: center; */
+}
+.menu > nav > ul {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+
+.welcome {
+    /* grid-area: benvenutti; */
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "posts-header posts-header posts-header"
+        "articulo-1 articulo-2 articulo-3"
+        "articulo-4 articulo-5 ."
+}
+
+.posts-header {
+    grid-area: posts-header;
+}
+.article-1 {
+    grid-area: articulo-1;
+}
+
+.article-2 {
+    grid-area: articulo-2;
+}
+
+.article-3 {
+    grid-area: articulo-3;
+}
+
+.article-4 {
+    grid-area: articulo-4;
+}
+
+.article-5 {
+    grid-area: articulo-5;
+}
+
+.copyright {
+    /* grid-area: copyright; */
+}
