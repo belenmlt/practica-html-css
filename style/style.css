@@ -22,30 +22,26 @@
 }
 
 .logo {
+    width: 50%;
     display: flex;
-    /* justify-content: center; */
 }
 .logo-image{
     width: 50%;
 }
 
 .menu {
-    /* display: flex;
-    justify-content: flex-end; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 } 
 
-.menu > nav {
-    display: flex;
-    /* justify-content: center; */
-}
 .menu > nav > ul {
     display: flex;
-    /* justify-content: flex-end; */
 }
 
 
 .welcome {
-    /* grid-area: benvenutti; */
+
 }
 
 .posts {
@@ -82,5 +78,4 @@
 }
 
 .copyright {
-    /* grid-area: copyright; */
 }
